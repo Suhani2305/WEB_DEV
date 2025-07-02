@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    
+}
+div{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    width: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+#hello{
+    background-color: orange;
+}
+.container{
+    background-color: rgb(7, 215, 7);
+}
+
+
+
+.message{
+    color: white;
+    background-color: purple;
+}
+
+/* ul li:nth-child(4){
+    background-color: red;
+} */
+
+/* ul li:nth-last-child(4){
+    background-color: peru;
+} */
+
+/* 
+ul li:nth-of-type(2n + 1){ 
+    background-color: purple;
+} */
+
+
+ul li:hover{
+    background-color: paleturquoise;
+    color: white;
+}
